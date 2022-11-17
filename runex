@@ -1,0 +1,7 @@
+#!/bin/sh
+
+file=reflections
+scene=ResonanceTube
+flags=$1
+
+manim ${file}.py  $scene -p -ql
